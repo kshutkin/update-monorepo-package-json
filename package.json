@@ -1,0 +1,27 @@
+{
+  "name": "update-monorepo-package-json",
+  "version": "0.1.4",
+  "description": "Update package.json dependencies in monorepo",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshutkin/update-monorepo-package-json.git"
+  },
+  "author": "Konstantin Shutkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kshutkin/update-monorepo-package-json/issues"
+  },
+  "homepage": "https://github.com/kshutkin/update-monorepo-package-json#readme",
+  "dependencies": {
+    "@semantic-release/error": "^3.0.0",
+    "read-pkg": "^5.0.0"
+  }
+}

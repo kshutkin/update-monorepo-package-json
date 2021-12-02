@@ -9,6 +9,14 @@ Based on `@semantic-release/npm` plugin.
 
 To use put it before `@semantic-release/npm` in the `.releaserc`.
 
+Plugin config options:
+
+| Options      | Description                                                                                                         | Default                                                                                                                          |
+|--------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| `prefix` | prefix to prepend to a version string  | empty string |
+| `suffix` | suffix to append to a version string | empty string |
+| `pkgRoot` | Directory path to publish. | `.` |
+
 Example:
 
 ```json

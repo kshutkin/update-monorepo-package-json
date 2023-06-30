@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/kshutkin/update-monorepo-package-json#readme",
   "dependencies": {
-    "@semantic-release/error": "^3.0.0",
+    "@semantic-release/error": "^4.0.0",
     "read-pkg": "^5.0.0"
   }
 }
